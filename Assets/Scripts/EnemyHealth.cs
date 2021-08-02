@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class EnemyHealth : MonoBehaviour
 {
@@ -23,7 +22,8 @@ public class EnemyHealth : MonoBehaviour
         if (currentHealth <= 0)
         {
             Destroy(this.gameObject);
-            //SceneManager.LoadScene(2);
+            ScoreScript.scoreInstance.EnemyIncrement();
+
         }
     }
 }

@@ -6,9 +6,6 @@ using UnityEngine.AI;
 public class EnemyController : MonoBehaviour
 {
     public float enemyMoveSpeed;
-    //public Rigidbody rb;
-    //public Transform target;
-
     bool chasing;
     public float distanceToChase,distanceToLoose,distanceToStop;
     public NavMeshAgent navMesh;
@@ -16,11 +13,12 @@ public class EnemyController : MonoBehaviour
     public float chasingTime,chaseCount;
     public GameObject enemyBulletPrefab;
     public Transform enmeyFirePoint;
-
+    public Animator enemyAnim;
     public float fireRate, fireCount,fireWaitCounter,waitBtwnShoots,shootTimeCounter;//enemy fire rate controller
     // Start is called before the first frame update
     void Start()
     {
+        
         startingPoint = transform.position;
         shootTimeCounter = 1f;
         fireWaitCounter = waitBtwnShoots;
@@ -41,9 +39,12 @@ public class EnemyController : MonoBehaviour
             }
             if (chaseCount > 0)
             {
+                enemyAnim.SetBool("isRun", false);
+
                 chaseCount -= Time.deltaTime;
                 if (chaseCount <= 0)
                 {
+
                     navMesh.destination = startingPoint;
                 }
             }
@@ -51,14 +52,15 @@ public class EnemyController : MonoBehaviour
         }
         else
         {
-            //transform.LookAt(targetPoint);
-            //rb.velocity = transform.forward * enemyMoveSpeed;
             if (Vector3.Distance(transform.position, targetPoint) > distanceToStop)
             {
+                enemyAnim.SetBool("isRun",true);
+
                 navMesh.destination = targetPoint;
             }
             else
             {
+                enemyAnim.SetBool("isRun",false);
                 navMesh.destination = startingPoint;
             }
            
@@ -67,6 +69,7 @@ public class EnemyController : MonoBehaviour
             if (Vector3.Distance(transform.position, targetPoint) > distanceToLoose)
             {
                 chasing = false;
+            
                 navMesh.destination = startingPoint;
                 chaseCount = chasingTime;
             }
@@ -91,14 +94,17 @@ public class EnemyController : MonoBehaviour
                         //Check the angle of player
                         Vector3 targetDirection = targetPoint - transform.position;
                         float angle = Vector3.SignedAngle(targetDirection, transform.forward, Vector3.up);
-                        if (Mathf.Abs( angle) < 40f)
+                        if (Mathf.Abs( angle) < 30f)
                         {
+                            
                             Instantiate(enemyBulletPrefab, enmeyFirePoint.position, enmeyFirePoint.rotation);
                         }
                         else
                         {
                             fireWaitCounter = waitBtwnShoots;
                         }
+                        enemyAnim.SetBool("isRun", false);
+
                         navMesh.destination = transform.position;
 
 
@@ -119,4 +125,5 @@ public class EnemyController : MonoBehaviour
         }
 
     }
+    
 }

@@ -108,7 +108,7 @@ public class PlayerController : MonoBehaviour
             {
                 if (Vector3.Distance(cameraTransform.position, hit.point) > 2f)
                 {
-                    firePoint.LookAt(cameraTransform.position + (cameraTransform.forward * 30f));
+                    firePoint.LookAt(cameraTransform.position + (cameraTransform.forward * 50f));
                 }
                 
             }

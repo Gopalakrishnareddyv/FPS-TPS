@@ -1,0 +1,893 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1110; Version 2009; 64bit' Language: 'en' Physical Memory: 16260 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Gopalakrishnareddy/FPS and TPS Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51161
+Successfully changed project path to: C:/Users/Gopalakrishnareddy/FPS and TPS Game
+C:/Users/Gopalakrishnareddy/FPS and TPS Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 65.02 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.4f1 (0abb6314276a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Gopalakrishnareddy/FPS and TPS Game/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x3ea0)
+    Vendor:   
+    VRAM:     8130 MB
+    Driver:   27.20.100.8935
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56840
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004492 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 71.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.289 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001406 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.742 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.8 MB.
+System memory in use after: 72.9 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1621.
+Total: 3.503900 ms (FindLiveObjects: 0.293600 ms CreateObjectMapping: 0.070800 ms MarkObjects: 2.947700 ms  DeleteObjects: 0.189300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/FreeAnimatedSpaceMan/animations_legacy/Run.FBX
+  artifactKey: Guid(5aa297bdf08ca674caff7a7a7fb33301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeAnimatedSpaceMan/animations_legacy/Run.FBX using Guid(5aa297bdf08ca674caff7a7a7fb33301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b338ff72721ef047cdde9fbcdcb50d1') in 0.682088 seconds
+  Import took 0.688460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000541 seconds.
+  path: Assets/FreeAnimatedSpaceMan/animations_legacy
+  artifactKey: Guid(0c52f62e42afb5f49ba2c69e3d26d312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeAnimatedSpaceMan/animations_legacy using Guid(0c52f62e42afb5f49ba2c69e3d26d312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc64e8212e73681c0cdf825f1dea8f0') in 0.018445 seconds
+  Import took 0.023675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000714 seconds.
+  path: Assets/FreeAnimatedSpaceMan/animations_legacy/Idle.FBX
+  artifactKey: Guid(afb6ef035e041ee47bcf60f70f5f1adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeAnimatedSpaceMan/animations_legacy/Idle.FBX using Guid(afb6ef035e041ee47bcf60f70f5f1adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512c8c11e37cb945a439a1b6b839eb46') in 0.191959 seconds
+  Import took 0.198883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/FreeAnimatedSpaceMan
+  artifactKey: Guid(69ff19cfa85eb3e4c9b629fe7475e3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeAnimatedSpaceMan using Guid(69ff19cfa85eb3e4c9b629fe7475e3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc954122965a7d3e928a8d26cbc0266') in 0.018921 seconds
+  Import took 0.022823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/FreeAnimatedSpaceMan/animations_legacy/Run_Left.FBX
+  artifactKey: Guid(0869a73c0e0ae734aa743d2ce50a7ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeAnimatedSpaceMan/animations_legacy/Run_Left.FBX using Guid(0869a73c0e0ae734aa743d2ce50a7ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5401f7670d52b582db7d71dfe8ebcfba') in 0.185699 seconds
+  Import took 0.191810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/FreeAnimatedSpaceMan/animations_legacy/Run_Right.FBX
+  artifactKey: Guid(338747b53ccb281438ca94866ff1d744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeAnimatedSpaceMan/animations_legacy/Run_Right.FBX using Guid(338747b53ccb281438ca94866ff1d744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9f0abd71e33ed48a5edea1a63670fb') in 0.178422 seconds
+  Import took 0.184073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/FreeAnimatedSpaceMan/animations_legacy/Run_Back.FBX
+  artifactKey: Guid(6d654999dbb48624ca6304d8d5b49be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeAnimatedSpaceMan/animations_legacy/Run_Back.FBX using Guid(6d654999dbb48624ca6304d8d5b49be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e23d9acc840dd62f0b84d910d9a62c2') in 0.172215 seconds
+  Import took 0.177546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.257340 seconds.
+  path: Assets/FreeAnimatedSpaceMan/animations_mecanim
+  artifactKey: Guid(a88e007f80e38134383447e55418b9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeAnimatedSpaceMan/animations_mecanim using Guid(a88e007f80e38134383447e55418b9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b429a682e16153e7423a8e800d13e4c7') in 0.011319 seconds
+  Import took 0.031077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069156 seconds.
+  path: Assets/FreeAnimatedSpaceMan/animations_mecanim/Idle.FBX
+  artifactKey: Guid(7184c11791413af4da8292a009e57d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeAnimatedSpaceMan/animations_mecanim/Idle.FBX using Guid(7184c11791413af4da8292a009e57d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9539ff6cb32607700a8edd7611e4067c') in 0.154280 seconds
+  Import took 0.158487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000515 seconds.
+  path: Assets/FreeAnimatedSpaceMan/animations_mecanim/Run_Right.FBX
+  artifactKey: Guid(ed66f407effdce94fa9c1211a10e358d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeAnimatedSpaceMan/animations_mecanim/Run_Right.FBX using Guid(ed66f407effdce94fa9c1211a10e358d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64538959e578a7130ab475bf448f5f80') in 0.172392 seconds
+  Import took 0.176999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/FreeAnimatedSpaceMan/animations_mecanim/Run_Left.FBX
+  artifactKey: Guid(be6a3cb8fa825e04087db21b112c471f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeAnimatedSpaceMan/animations_mecanim/Run_Left.FBX using Guid(be6a3cb8fa825e04087db21b112c471f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec82b11e3ad618b1e99810103b51ecd') in 0.168237 seconds
+  Import took 0.173366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/FreeAnimatedSpaceMan/animations_mecanim/Run.FBX
+  artifactKey: Guid(88c2aadb30c496a48996821711786ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeAnimatedSpaceMan/animations_mecanim/Run.FBX using Guid(88c2aadb30c496a48996821711786ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd35c7cd4856a3494b627a8e78c63aa') in 0.175041 seconds
+  Import took 0.179702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000626 seconds.
+  path: Assets/FreeAnimatedSpaceMan/animations_mecanim/Run_back.FBX
+  artifactKey: Guid(e6cd4bb206bb7c94b9e8b949ddfbfe90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeAnimatedSpaceMan/animations_mecanim/Run_back.FBX using Guid(e6cd4bb206bb7c94b9e8b949ddfbfe90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99def697d90796b7d5bff4201eeeae1c') in 0.175402 seconds
+  Import took 0.179943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.593684 seconds.
+  path: Assets/FreeAnimatedSpaceMan/Textures
+  artifactKey: Guid(cb8d8bfaa2cf0ea40977c43c46249598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeAnimatedSpaceMan/Textures using Guid(cb8d8bfaa2cf0ea40977c43c46249598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf5ef58c7b1b15f73216190813d5b55') in 0.015904 seconds
+  Import took 0.020319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.111733 seconds.
+  path: Assets/FreeAnimatedSpaceMan/Textures/SpaceMan_Rank_02_Blue.png
+  artifactKey: Guid(e64442d6c716d0649863c2cd5918df9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeAnimatedSpaceMan/Textures/SpaceMan_Rank_02_Blue.png using Guid(e64442d6c716d0649863c2cd5918df9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb81b87b9081e1415d4915ed3c84485') in 0.132452 seconds
+  Import took 0.138646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000647 seconds.
+  path: Assets/FreeAnimatedSpaceMan/Textures/SpaceMan_Weapons_Rank_02.png
+  artifactKey: Guid(e35a3cb3d5329da4dafdc1d299f845d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeAnimatedSpaceMan/Textures/SpaceMan_Weapons_Rank_02.png using Guid(e35a3cb3d5329da4dafdc1d299f845d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa43be169570a30db77f942f9a2b099') in 0.031837 seconds
+  Import took 0.036983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.172048 seconds.
+  path: Assets/FreeAnimatedSpaceMan/Materials
+  artifactKey: Guid(3164c3a8a706db547a6b831acd06c27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeAnimatedSpaceMan/Materials using Guid(3164c3a8a706db547a6b831acd06c27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '213f1a89bf0e2893a22f4f34e2ee68db') in 0.012458 seconds
+  Import took 0.017153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.095412 seconds.
+  path: Assets/FreeAnimatedSpaceMan/Materials/Plane.mat
+  artifactKey: Guid(0631bac512dbddd4eb71a58e6504c793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeAnimatedSpaceMan/Materials/Plane.mat using Guid(0631bac512dbddd4eb71a58e6504c793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2141818d765d405c6371b194e0714acb') in 0.676016 seconds
+  Import took 0.680558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000514 seconds.
+  path: Assets/FreeAnimatedSpaceMan/Materials/SpaceMan_Weapons_Rank_02.mat
+  artifactKey: Guid(ca0f6abd9feb63e468ba06b77ffb1a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeAnimatedSpaceMan/Materials/SpaceMan_Weapons_Rank_02.mat using Guid(ca0f6abd9feb63e468ba06b77ffb1a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e481ca251a3ad76dcce022508a7dc962') in 0.029308 seconds
+  Import took 0.033900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/FreeAnimatedSpaceMan/Materials/SpaceMan_Rank_02_Blue.mat
+  artifactKey: Guid(76957805971dcfa45b689910366d0db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FreeAnimatedSpaceMan/Materials/SpaceMan_Rank_02_Blue.mat using Guid(76957805971dcfa45b689910366d0db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e109b59c96e42697ca3d875123ad93') in 0.049308 seconds
+  Import took 0.054327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.682913 seconds.
+  path: Assets/RobotSphere
+  artifactKey: Guid(b5b7d959137f62b4d95b42d0a0dab1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere using Guid(b5b7d959137f62b4d95b42d0a0dab1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28042b49192456e949c6498a79e3bfc') in 0.011648 seconds
+  Import took 0.016256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016246 seconds.
+  path: Assets/RobotSphere
+  artifactKey: Guid(b5b7d959137f62b4d95b42d0a0dab1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere using Guid(b5b7d959137f62b4d95b42d0a0dab1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28042b49192456e949c6498a79e3bfc') in 0.003803 seconds
+  Import took 0.008091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.591805 seconds.
+  path: Assets/RobotSphere/Assets
+  artifactKey: Guid(30d1cdc1b09d1f34aa54c83d0b69f316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets using Guid(30d1cdc1b09d1f34aa54c83d0b69f316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5e1258a4ffc7ff61c0838be071fb79') in 0.011694 seconds
+  Import took 0.016101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.712434 seconds.
+  path: Assets/RobotSphere/Assets/Models
+  artifactKey: Guid(b0c2cf52596b2412a85d9067af6756f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models using Guid(b0c2cf52596b2412a85d9067af6756f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3605ebdad1599edef09c4027f43bb5') in 0.011738 seconds
+  Import took 0.016049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.196913 seconds.
+  path: Assets/RobotSphere/Assets/Models/robotSphere.fbx
+  artifactKey: Guid(bff429107601444d59c67940e6ad78c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models/robotSphere.fbx using Guid(bff429107601444d59c67940e6ad78c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af914120c16beb4ca2038a4756232cc') in 1.203434 seconds
+  Import took 1.209233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_cloed_Roll_Loop.fbx
+  artifactKey: Guid(a39d150aebfb4ce449f4a4f23709b822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_cloed_Roll_Loop.fbx using Guid(a39d150aebfb4ce449f4a4f23709b822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79cd46e590e33d76f9ff84f9a963a326') in 0.522842 seconds
+  Import took 0.529756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_open_Idle_F1.fbx
+  artifactKey: Guid(1b77d6c7e7fbcb84c883cf63da0a79a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_open_Idle_F1.fbx using Guid(1b77d6c7e7fbcb84c883cf63da0a79a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a01172bf6cbdf552e81bb022474805d') in 0.565612 seconds
+  Import took 0.572691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_open.fbx
+  artifactKey: Guid(ecb6e102166bfcf47b9206c2f8297fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_open.fbx using Guid(ecb6e102166bfcf47b9206c2f8297fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3eaba0513b1cebd28f33db57269b716') in 0.527655 seconds
+  Import took 0.534788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000579 seconds.
+  path: Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_close.fbx
+  artifactKey: Guid(d7222f7175ac71943b44f3d2f8ae3453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_close.fbx using Guid(d7222f7175ac71943b44f3d2f8ae3453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4164204a3f46be4691eae0323f6bf2e7') in 0.495739 seconds
+  Import took 0.501533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_open_GoToRoll.fbx
+  artifactKey: Guid(f2fc0388a7c562e4fa0d179ac93423ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_open_GoToRoll.fbx using Guid(f2fc0388a7c562e4fa0d179ac93423ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0155227ac15e7ad26b21af6dd527655b') in 0.489380 seconds
+  Import took 0.495004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000521 seconds.
+  path: Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_open_Walk_Loop.fbx
+  artifactKey: Guid(757bc78a1e5310740a2eee895c77111c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_open_Walk_Loop.fbx using Guid(757bc78a1e5310740a2eee895c77111c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8327df13efd9cc6e83102de12dbbe54a') in 0.515916 seconds
+  Import took 0.521967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000542 seconds.
+  path: Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_Idle_Loop_S.fbx
+  artifactKey: Guid(52ad55bee0260b64da664da407ed38b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_Idle_Loop_S.fbx using Guid(52ad55bee0260b64da664da407ed38b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac109848d749839c7c381737859d5fd') in 0.509015 seconds
+  Import took 0.515256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000511 seconds.
+  path: Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_closed_StopRoll.fbx
+  artifactKey: Guid(a04d47ebf8b64cc4a94b13a384a37882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_closed_StopRoll.fbx using Guid(a04d47ebf8b64cc4a94b13a384a37882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890f75838f84a7d87781468db6646b94') in 0.511636 seconds
+  Import took 0.518907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000614 seconds.
+  path: Assets/RobotSphere/Assets/Models/Animation
+  artifactKey: Guid(ebb2d83cfcb0f41f88a0a1ea37f56544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RobotSphere/Assets/Models/Animation using Guid(ebb2d83cfcb0f41f88a0a1ea37f56544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0abde458eeecda1e00fa2c6c8986e3d9') in 0.017374 seconds
+  Import took 0.024080 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002576 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.376 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1138 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.5 MB.
+System memory in use after: 91.5 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1670.
+Total: 3.977600 ms (FindLiveObjects: 0.314000 ms CreateObjectMapping: 0.098600 ms MarkObjects: 3.389900 ms  DeleteObjects: 0.172700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001116 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.563 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1136 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.4 MB.
+System memory in use after: 91.5 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1672.
+Total: 3.159200 ms (FindLiveObjects: 0.357000 ms CreateObjectMapping: 0.072400 ms MarkObjects: 2.594100 ms  DeleteObjects: 0.125200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001693 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.801 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1136 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.5 MB.
+System memory in use after: 91.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1675.
+Total: 3.213800 ms (FindLiveObjects: 0.250400 ms CreateObjectMapping: 0.066800 ms MarkObjects: 2.742100 ms  DeleteObjects: 0.152200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001473 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.715 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1136 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.5 MB.
+System memory in use after: 91.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1678.
+Total: 2.787600 ms (FindLiveObjects: 0.220400 ms CreateObjectMapping: 0.061900 ms MarkObjects: 2.393100 ms  DeleteObjects: 0.110600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1470.574272 seconds.
+  path: Assets/Robot_Soldier
+  artifactKey: Guid(4ffad39e69fec3848a8269fe3220bf5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot_Soldier using Guid(4ffad39e69fec3848a8269fe3220bf5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f4227e69751b120ed29e65ae346b71') in 0.018378 seconds
+  Import took 0.046879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.229850 seconds.
+  path: Assets/Robot_Soldier/Animations
+  artifactKey: Guid(f19f4701b9adce74b88b8b716acd9159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot_Soldier/Animations using Guid(f19f4701b9adce74b88b8b716acd9159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3cc3a72b6cb5f631d914f6b32a23d5') in 0.011493 seconds
+  Import took 0.015802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.102334 seconds.
+  path: Assets/Robot_Soldier/Animations/Run_Aim.fbx
+  artifactKey: Guid(9f0376548525d7f46a10087a2cb9ff17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot_Soldier/Animations/Run_Aim.fbx using Guid(9f0376548525d7f46a10087a2cb9ff17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad081ae6771f33e0c406520eb77418b6') in 0.064634 seconds
+  Import took 0.070076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.778964 seconds.
+  path: Assets/Robot_Soldier/Prefabs
+  artifactKey: Guid(bf99a5f93c692a64594e6d7a2d155f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot_Soldier/Prefabs using Guid(bf99a5f93c692a64594e6d7a2d155f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac3806809afc6c7fb2f42672c482b35') in 0.012400 seconds
+  Import took 0.016606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097169 seconds.
+  path: Assets/Robot_Soldier/Prefabs/Robot_Soldier_Blue.prefab
+  artifactKey: Guid(3fc233a9407d11f46a1983e4692babf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot_Soldier/Prefabs/Robot_Soldier_Blue.prefab using Guid(3fc233a9407d11f46a1983e4692babf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d9cfa8bd275cdd12ca28c83cf1ccc0') in 0.022643 seconds
+  Import took 0.042940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000545 seconds.
+  path: Assets/Robot_Soldier/Prefabs/Robot_Soldier_Green.prefab
+  artifactKey: Guid(ebd2497aad4ffde43abb1d9b595d8937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot_Soldier/Prefabs/Robot_Soldier_Green.prefab using Guid(ebd2497aad4ffde43abb1d9b595d8937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2341d9cf4b26e4772b8c58f3d67f458') in 0.019104 seconds
+  Import took 0.023562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/Robot_Soldier/Prefabs/Robot_Soldier_White.prefab
+  artifactKey: Guid(0814aba0a5f87494cb000251ab82361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot_Soldier/Prefabs/Robot_Soldier_White.prefab using Guid(0814aba0a5f87494cb000251ab82361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb70ee2a91a00ee504d753db7e5da23') in 0.018651 seconds
+  Import took 0.022903 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001583 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.622 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1136 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.5 MB.
+System memory in use after: 91.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1681.
+Total: 3.108900 ms (FindLiveObjects: 0.221800 ms CreateObjectMapping: 0.063300 ms MarkObjects: 2.713200 ms  DeleteObjects: 0.108700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1232.310280 seconds.
+  path: Assets/walker-robot
+  artifactKey: Guid(17ad447cdcbd26e43971b235dfb21607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/walker-robot using Guid(17ad447cdcbd26e43971b235dfb21607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbd9a63f05243d66ee590427c7d8e79') in 0.016984 seconds
+  Import took 0.021840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.133491 seconds.
+  path: Assets/walker-robot/source
+  artifactKey: Guid(e3373bc10e321664db101806974e7c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/walker-robot/source using Guid(e3373bc10e321664db101806974e7c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc525cca09114a70501283c86f67912') in 0.015732 seconds
+  Import took 0.021027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.101403 seconds.
+  path: Assets/walker-robot/source/WalkerRobot.fbx
+  artifactKey: Guid(d1829e45c876cff46b7637d67d856ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/walker-robot/source/WalkerRobot.fbx using Guid(d1829e45c876cff46b7637d67d856ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3952b5084bad81f72012bbc2881d1794') in 0.301631 seconds
+  Import took 0.317214 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002019 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.689 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1136 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.5 MB.
+System memory in use after: 91.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1685.
+Total: 3.165100 ms (FindLiveObjects: 0.218200 ms CreateObjectMapping: 0.061500 ms MarkObjects: 2.772000 ms  DeleteObjects: 0.111600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 671.247488 seconds.
+  path: Assets/LowPolySoldiers_demo/models/Soldier_demo.FBX
+  artifactKey: Guid(fcb334eb247ae3e488abb081c847cf09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolySoldiers_demo/models/Soldier_demo.FBX using Guid(fcb334eb247ae3e488abb081c847cf09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6417c760af8a6ff52ca253a2a153ab63') in 0.455704 seconds
+  Import took 0.461688 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001168 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.588 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.3 MB.
+System memory in use after: 91.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1677.
+Total: 3.033000 ms (FindLiveObjects: 0.275800 ms CreateObjectMapping: 0.078900 ms MarkObjects: 2.559300 ms  DeleteObjects: 0.117500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.275307 seconds.
+  path: Assets/EnemyRobots
+  artifactKey: Guid(ab7e6f03bfcef71498fdfc86da47cf53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyRobots using Guid(ab7e6f03bfcef71498fdfc86da47cf53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '121b83d0c45131746a5e1a1c4e320374') in 0.016153 seconds
+  Import took 0.036921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.961555 seconds.
+  path: Assets/Asset
+  artifactKey: Guid(9f1c99848d8d7a74d9c8c38a8ef213d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset using Guid(9f1c99848d8d7a74d9c8c38a8ef213d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ff66ac9d03376f1b0bc011076c6cee') in 0.013345 seconds
+  Import took 0.017214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.151213 seconds.
+  path: Assets/gun-bot-with-walk-and-idle-animation
+  artifactKey: Guid(65acf0ebe6db78e41940f9cac5122296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gun-bot-with-walk-and-idle-animation using Guid(65acf0ebe6db78e41940f9cac5122296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887058cb413c0b5234e3c73d2b527c7c') in 0.013835 seconds
+  Import took 0.018625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.870871 seconds.
+  path: Assets/gun-bot-with-walk-and-idle-animation/source
+  artifactKey: Guid(423d0cb865cb2ad49a6a9ab69066f90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gun-bot-with-walk-and-idle-animation/source using Guid(423d0cb865cb2ad49a6a9ab69066f90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86e55b1b728eef1ca0290fdf06312e4') in 0.011903 seconds
+  Import took 0.016200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064286 seconds.
+  path: Assets/gun-bot-with-walk-and-idle-animation/source/cc8b74aeda164d6a8f58b0d5e5e40349.fbx.fbx
+  artifactKey: Guid(264bf0edf708e3b4facb796136d7fa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gun-bot-with-walk-and-idle-animation/source/cc8b74aeda164d6a8f58b0d5e5e40349.fbx.fbx using Guid(264bf0edf708e3b4facb796136d7fa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d1a324128718daa6c34a1423ae8448') in 0.425086 seconds
+  Import took 0.430204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032103 seconds.
+  path: Assets/gun-bot-with-walk-and-idle-animation/source/cc8b74aeda164d6a8f58b0d5e5e40349.fbx.fbx
+  artifactKey: Guid(264bf0edf708e3b4facb796136d7fa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gun-bot-with-walk-and-idle-animation/source/cc8b74aeda164d6a8f58b0d5e5e40349.fbx.fbx using Guid(264bf0edf708e3b4facb796136d7fa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d1a324128718daa6c34a1423ae8448') in 0.293693 seconds
+  Import took 0.299205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.909076 seconds.
+  path: Assets/gun-bot-with-walk-and-idle-animation/textures
+  artifactKey: Guid(4b920413af4803b4aa8f6df8b4c18ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gun-bot-with-walk-and-idle-animation/textures using Guid(4b920413af4803b4aa8f6df8b4c18ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0507ca388302fec5851aea32fdaaa65d') in 0.014605 seconds
+  Import took 0.020012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.092335 seconds.
+  path: Assets/gun-bot-with-walk-and-idle-animation/textures/01.jpg
+  artifactKey: Guid(ee969beab25b2c941bfe53b9b5d04628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gun-bot-with-walk-and-idle-animation/textures/01.jpg using Guid(ee969beab25b2c941bfe53b9b5d04628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82119b75057f44331717db2eb63c028') in 0.043368 seconds
+  Import took 0.048010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/gun-bot-with-walk-and-idle-animation/textures/Gun_Bor_N2.png
+  artifactKey: Guid(7c5d4a996dd4e264f8008a933d5616b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gun-bot-with-walk-and-idle-animation/textures/Gun_Bor_N2.png using Guid(7c5d4a996dd4e264f8008a933d5616b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c50f32ddf92a31cd3c42b9aa8d4eb39') in 0.028859 seconds
+  Import took 0.032837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/gun-bot-with-walk-and-idle-animation/textures/Steel_DH_col_1.png
+  artifactKey: Guid(e5f9783e89eb1824bb994568c99c3223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gun-bot-with-walk-and-idle-animation/textures/Steel_DH_col_1.png using Guid(e5f9783e89eb1824bb994568c99c3223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff03eb4fbe5e3543cfae3ca2999702e') in 0.052914 seconds
+  Import took 0.057557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/gun-bot-with-walk-and-idle-animation/textures/Gun_bot_ao_2.png
+  artifactKey: Guid(72385554b4d2eaa4ea554d34e77c164a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gun-bot-with-walk-and-idle-animation/textures/Gun_bot_ao_2.png using Guid(72385554b4d2eaa4ea554d34e77c164a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725993c5e95619568fd990b8040d1acf') in 0.033870 seconds
+  Import took 0.038362 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001685 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.867 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.3 MB.
+System memory in use after: 91.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1681.
+Total: 3.737500 ms (FindLiveObjects: 0.256800 ms CreateObjectMapping: 0.075500 ms MarkObjects: 3.247000 ms  DeleteObjects: 0.154900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 188.467544 seconds.
+  path: Assets/gun-bot-with-walk-and-idle-animation/source/Enemy.controller
+  artifactKey: Guid(9eee1d6698b17664a9e738449e2d488c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gun-bot-with-walk-and-idle-animation/source/Enemy.controller using Guid(9eee1d6698b17664a9e738449e2d488c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c08c5e80e81c2bab781cf5c6b2982501') in 0.042778 seconds
+  Import took 0.047899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.271722 seconds.
+  path: Assets/gun-bot-with-walk-and-idle-animation/source/Enemy.controller
+  artifactKey: Guid(9eee1d6698b17664a9e738449e2d488c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gun-bot-with-walk-and-idle-animation/source/Enemy.controller using Guid(9eee1d6698b17664a9e738449e2d488c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d99661307f318e10c8c56aab126e75e') in 0.014508 seconds
+  Import took 0.021356 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001770 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.810 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.3 MB.
+System memory in use after: 91.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1684.
+Total: 2.873100 ms (FindLiveObjects: 0.336400 ms CreateObjectMapping: 0.128300 ms MarkObjects: 2.298500 ms  DeleteObjects: 0.107900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000696 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.772 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.3 MB.
+System memory in use after: 91.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1687.
+Total: 2.462100 ms (FindLiveObjects: 0.299000 ms CreateObjectMapping: 0.038300 ms MarkObjects: 2.051300 ms  DeleteObjects: 0.072400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 256.505777 seconds.
+  path: Assets/gun-bot-with-walk-and-idle-animation/source/cc8b74aeda164d6a8f58b0d5e5e40349.fbx.fbx
+  artifactKey: Guid(264bf0edf708e3b4facb796136d7fa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gun-bot-with-walk-and-idle-animation/source/cc8b74aeda164d6a8f58b0d5e5e40349.fbx.fbx using Guid(264bf0edf708e3b4facb796136d7fa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94a2f84794e5e5c0b4216dddbf11f19') in 0.217025 seconds
+  Import took 0.219899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.674626 seconds.
+  path: Assets/gun-bot-with-walk-and-idle-animation/source/Enemy.controller
+  artifactKey: Guid(9eee1d6698b17664a9e738449e2d488c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gun-bot-with-walk-and-idle-animation/source/Enemy.controller using Guid(9eee1d6698b17664a9e738449e2d488c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713cd463d28ff4aaffb6ab20e2cb345d') in 0.005591 seconds
+  Import took 0.008041 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000711 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.772 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.4 MB.
+System memory in use after: 91.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1691.
+Total: 2.501400 ms (FindLiveObjects: 0.185700 ms CreateObjectMapping: 0.057600 ms MarkObjects: 2.181600 ms  DeleteObjects: 0.075500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.898846 seconds.
+  path: Assets/gun-bot-with-walk-and-idle-animation/source/cc8b74aeda164d6a8f58b0d5e5e40349.fbx.fbx
+  artifactKey: Guid(264bf0edf708e3b4facb796136d7fa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gun-bot-with-walk-and-idle-animation/source/cc8b74aeda164d6a8f58b0d5e5e40349.fbx.fbx using Guid(264bf0edf708e3b4facb796136d7fa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c8627da76df87985331a85e09910ae') in 0.230270 seconds
+  Import took 0.233566 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000797 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.768 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.4 MB.
+System memory in use after: 91.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1695.
+Total: 2.475500 ms (FindLiveObjects: 0.219800 ms CreateObjectMapping: 0.082700 ms MarkObjects: 2.096700 ms  DeleteObjects: 0.075200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.693916 seconds.
+  path: Assets/gun-bot-with-walk-and-idle-animation/source/cc8b74aeda164d6a8f58b0d5e5e40349.fbx.fbx
+  artifactKey: Guid(264bf0edf708e3b4facb796136d7fa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gun-bot-with-walk-and-idle-animation/source/cc8b74aeda164d6a8f58b0d5e5e40349.fbx.fbx using Guid(264bf0edf708e3b4facb796136d7fa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed23e151063d4f0b661d5820cfb234e7') in 0.226053 seconds
+  Import took 0.228928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004428 seconds.
+  path: Assets/gun-bot-with-walk-and-idle-animation/source/cc8b74aeda164d6a8f58b0d5e5e40349.fbx.fbx
+  artifactKey: Guid(264bf0edf708e3b4facb796136d7fa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/gun-bot-with-walk-and-idle-animation/source/cc8b74aeda164d6a8f58b0d5e5e40349.fbx.fbx using Guid(264bf0edf708e3b4facb796136d7fa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed23e151063d4f0b661d5820cfb234e7') in 0.135164 seconds
+  Import took 0.137840 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000696 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.796 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.8 MB.
+System memory in use after: 91.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1699.
+Total: 3.613000 ms (FindLiveObjects: 0.245000 ms CreateObjectMapping: 0.070900 ms MarkObjects: 3.209000 ms  DeleteObjects: 0.086100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000666 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.763 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.8 MB.
+System memory in use after: 91.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1702.
+Total: 2.038900 ms (FindLiveObjects: 0.157400 ms CreateObjectMapping: 0.063200 ms MarkObjects: 1.739600 ms  DeleteObjects: 0.077600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000658 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.786 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.8 MB.
+System memory in use after: 91.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1705.
+Total: 1.823600 ms (FindLiveObjects: 0.130800 ms CreateObjectMapping: 0.032000 ms MarkObjects: 1.588600 ms  DeleteObjects: 0.071000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000634 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.733 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.8 MB.
+System memory in use after: 91.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1708.
+Total: 2.938000 ms (FindLiveObjects: 0.226400 ms CreateObjectMapping: 0.065500 ms MarkObjects: 2.519800 ms  DeleteObjects: 0.124800 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -9,7 +9,8 @@ public class EnemyDestroy : MonoBehaviour
     {
         if (other.gameObject.tag == ("Enemy")&& enemyDamage)
         {
-            //Destroy(this.gameObject);
+            //Debug.Log("Hitted enemy");
+            Destroy(this.gameObject);
             //Destroy(other.gameObject);
             other.gameObject.GetComponent<EnemyHealth>().DamageEnemy(2);
         }
