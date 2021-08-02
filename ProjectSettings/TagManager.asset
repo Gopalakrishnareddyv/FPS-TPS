@@ -9,6 +9,7 @@ TagManager:
   - Target
   - Metal
   - ExplosiveBarrel
+  - coin
   layers:
   - Default
   - TransparentFX

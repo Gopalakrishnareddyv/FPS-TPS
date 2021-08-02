@@ -11,14 +11,11 @@ public class EnemyDestroy : MonoBehaviour
         {
             //Debug.Log("Hitted enemy");
             Destroy(this.gameObject);
-            //Destroy(other.gameObject);
             other.gameObject.GetComponent<EnemyHealth>().DamageEnemy(2);
         }
         if (other.gameObject.tag == "Player" && damagePlayer)
         {
-            //Debug.Log("Got hit");
             PlayerHealth.instance.PlayerDamage(1);
-
         }
     }
     

@@ -10,7 +10,6 @@ public class PlayerController : MonoBehaviour
     Vector3 moveinput;
     public Transform cameraTransform;
     public float mouseSenstivity;
-    public bool invertX, invertY;
     Vector2 mouseInput;
     public float gravity;
     public float jumpForce;
@@ -39,8 +38,6 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //moveinput.x = Input.GetAxis("Horizontal")*playerSpeed;
-        //moveinput.z = Input.GetAxis("Vertical")*playerSpeed;
         Vector3 horiMove = transform.right * Input.GetAxis("Horizontal");
         Vector3 verMove = transform.forward * Input.GetAxis("Vertical");
         moveinput = horiMove + verMove;
@@ -54,7 +51,6 @@ public class PlayerController : MonoBehaviour
             moveinput *= moveSpeed ;
         }
         moveinput.y += Physics.gravity.y * gravity * Time.deltaTime;
-        //jump Code
         canJump = Physics.OverlapSphere(groundCheck.position, 0.25f, groundMask).Length > 0;
         //Debug.Log(canJump);
         if (canJump)
@@ -75,45 +71,23 @@ public class PlayerController : MonoBehaviour
         character.Move(moveinput * Time.deltaTime);
         //camera rotation using mouseinput
         mouseInput = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"))*mouseSenstivity;
-        if (invertX)
-        {
-            mouseInput.x = -mouseInput.x;
-        }
-        if (invertY)
-        {
-            mouseInput.y = -mouseInput.y;
-        }
         transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y + mouseInput.x, transform.rotation.eulerAngles.z);
-        
-        
-        //camera rotation
         cameraTransform.rotation = Quaternion.Euler(cameraTransform.rotation.eulerAngles+new Vector3(mouseInput.y,0,0));
-        
-        
-        //Animation
         anim.SetFloat("moveSpeed", moveinput.magnitude);
         anim.SetBool("onGround",canJump);
         
         
-        //shoot bullet
+        
         if (Input.GetMouseButtonDown(0))
         {
             //raycast
             RaycastHit hit;
-            if(Physics.Raycast(cameraTransform.position,cameraTransform.forward,out hit, 50f))
+            if(Physics.Raycast(cameraTransform.position,cameraTransform.forward,out hit, 70f))
             {
                 firePoint.LookAt(hit.point);
             }
-            else
-            {
-                if (Vector3.Distance(cameraTransform.position, hit.point) > 2f)
-                {
-                    firePoint.LookAt(cameraTransform.position + (cameraTransform.forward * 50f));
-                }
-                
-            }
+
             BulletSpawning();
-            //Instantiate(prefab, firePoint.position, firePoint.rotation);
         }
     }
     public void CreatePool()//creating object pool method for bullets
@@ -131,7 +105,8 @@ public class PlayerController : MonoBehaviour
         bulletpool.Peek().SetActive(false);
 
     }
-    public void BulletSpawning()//spawning the bullets when stack is empty
+    
+    public void BulletSpawning()
     {
         if (bulletpool.Count == 0)
         {
@@ -143,4 +118,5 @@ public class PlayerController : MonoBehaviour
         temp.transform.rotation = firePoint.rotation;
         currentbullet = temp;
     }
+    
 }

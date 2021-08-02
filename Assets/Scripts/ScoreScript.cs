@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ScoreScript : MonoBehaviour
 {
@@ -23,7 +24,10 @@ public class ScoreScript : MonoBehaviour
     {
         enemies++;
         enemiesText.text = "Enemies : " + enemies;
-        
+        if (enemies == 3)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
     }
 
 }
